@@ -1,5 +1,5 @@
 # 目录
 
 * [第一讲 函数指针](chapter1.md)
-* [第二讲 TODO]
+* [第二讲 命令行参数](chapter2.md)
 * [附录](appendix.md)
