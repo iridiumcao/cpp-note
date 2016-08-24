@@ -20,3 +20,6 @@ $ ./hello
 $ g++ hello.cpp
 $ ./a.out
 ```
+## 格式化代码
+### Visual Studio Code
+首先系统要安装有 clang-format，然后再给 VSCode 安装 clang-format 插件，插件安装好後，可以使用 ``Ctrl+Shift+I`` 执行格式化代码操作。
