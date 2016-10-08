@@ -10,4 +10,7 @@
 * [第08讲 函数缺省参数](chapter8.md)
 * [第09讲 面向对象程序设计方法](chapter9.md)
 * [第10讲 面向对象语言的发展历程](chapter10.md)
+* [第11讲 从客观世界抽象出类的例子](chapter11.md)
+* [第12讲 类成员的访问范围](chapter12.md)
 * [附录](appendix.md)
+* [课程讲义](appendix_slides.md)
