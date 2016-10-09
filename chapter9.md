@@ -1,7 +1,7 @@
-# 面向对象程序设计方法
+# 第09讲 面向对象程序设计方法
 
 > C++ 是一门面向对象(Object Oriented)的语言。  
-> 视频地址：[https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/Av9Da/mian-xiang-dui-xiang-cheng-xu-she-ji-fang-fa](https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/Av9Da/mian-xiang-dui-xiang-cheng-xu-she-ji-fang-fa)
+> 视频地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/Av9Da/mian-xiang-dui-xiang-cheng-xu-she-ji-fang-fa>
 
 在 C++ 之前的 C 语言，是**面向过程**的语言，没有**对象**的概念，写程序时，需要直接将问题的整个流程用代码写出来，一环套一环，环环紧密结合（耦合）。用面向过程的语言肯定也能解决问题的，但有一些缺点：
 * 程序分解难

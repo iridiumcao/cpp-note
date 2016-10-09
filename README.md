@@ -5,7 +5,7 @@ C++ 诞生于1979年，是一门历史悠久的语言。它可能是第一个在
 本笔记课程信息：
 
 - 课程名称：《C++程序设计》 
-- 课程地址：[https://www.coursera.org/learn/cpp-chengxu-sheji](https://www.coursera.org/learn/cpp-chengxu-sheji) 
+- 课程地址：<https://www.coursera.org/learn/cpp-chengxu-sheji](https://www.coursera.org/learn/cpp-chengxu-sheji>
 - 授课老师：刘家瑛, 郭炜
 
 今年在 Coursera 上选了北大的「[程序设计与算法](https://www.coursera.org/specializations/biancheng-suanfa)」课程，它以 C++ 为程序语言，所以我这个工作中一直使用 Java 的程序员**不得不**从头开始学习 C++。虽然 C++ 和 Java 同为 C 风格的语言，但实质迥异，有诸多不同，C++ 比 Java 繁复的多，它没有垃圾回收机制，有超级难用的指针，有鸡肋一般的运算符重载，等等，C++ 比 Java 难多了，直让人感慨编码不易！

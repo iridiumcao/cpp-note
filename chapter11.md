@@ -1,7 +1,7 @@
-# 从客观世界抽象出类的例子
+# 第11讲 从客观世界抽象出类的例子
 
 > 这节内容实际上是所有 OO 编程通用的内容，所有 OO 语言在使用时都有这么个抽象过程。  
-> 视频地址：[https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/p0R51/cong-ke-guan-shi-wu-chou-xiang-chu-lei-de-li-zi](https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/p0R51/cong-ke-guan-shi-wu-chou-xiang-chu-lei-de-li-zi)
+> 视频地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/p0R51/cong-ke-guan-shi-wu-chou-xiang-chu-lei-de-li-zi>
 
 从客观世界抽象出类，从过程上讲，是从具有相同或相似性质的事物个体集合中，寻找和提炼它们的共性，并利用这个共性定义它们的「类型」。形象地说就是「归纳总结」。
 

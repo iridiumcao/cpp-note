@@ -1,7 +1,7 @@
 # 第10讲 面向对象语言的发展历程
 
 > 面向对象的语言是基于面向过程的语言发展而来的。除了这两种，还有函数式编程语言等。  
-> 视频地址：[https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/OS8Gw/mian-xiang-dui-xiang-yu-yan-de-fa-zhan-li-cheng](https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/OS8Gw/mian-xiang-dui-xiang-yu-yan-de-fa-zhan-li-cheng)
+> 视频地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/OS8Gw/mian-xiang-dui-xiang-yu-yan-de-fa-zhan-li-cheng>
 
 面向过程的语言：
 * 1960 Algol 60 (C 语言的原型)

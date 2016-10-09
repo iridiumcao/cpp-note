@@ -1,7 +1,7 @@
 # 第04讲 引用
 
 > 「引用」是 C++ 相对于 C 特有的概念，可以认为是变量的别名。它是一个比较简单的概念。  
-> 课程地址：[https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/947f4/yin-yong](https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/947f4/yin-yong)
+> 课程地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/947f4/yin-yong>
 
 引用的定义语法：  
 普通引用：`` 类型名& 引用名 = 某变量名 ``   

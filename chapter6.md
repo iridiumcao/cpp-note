@@ -1,7 +1,7 @@
 # 第06讲 动态内存分配
 
 > C++ 的内存分配和回收需要程序员写代码完成，这点比 Java 要复杂些。   
-> 视频地址：[https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/KzGkF/dong-tai-nei-cun-fen-pei](https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/KzGkF/dong-tai-nei-cun-fen-pei)
+> 视频地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/KzGkF/dong-tai-nei-cun-fen-pei>
 
 C++ 作为 C 的超集，既可以用 C 的 `malloc` 来分配内存，也可以用 C++ 特有的 `new`，一般使用后者更方便。
 

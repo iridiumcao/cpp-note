@@ -1,7 +1,7 @@
 # 第03讲 位运算
 
 > 本讲内容仍然是对 C 的复习，也可以看着是面向过程的 C++.  
-> 课程地址：[https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/ifzZC/wei-yun-suan](https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/ifzZC/wei-yun-suan)
+> 课程地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/ifzZC/wei-yun-suan>
 
 **位运算**是对整型(char, short, int, long, etc..)变量的二进制形式进行的运算。
 
