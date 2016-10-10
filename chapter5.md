@@ -1,7 +1,7 @@
 # 第05讲 常量
 
 > 「常量」是定义後不能改变的值，是一个比较简单的概念。  
-> 课程地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/cSDSy/constguan-jian-zi-he-chang-liang>
+> 视频地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/cSDSy/constguan-jian-zi-he-chang-liang>
 
 C++ 中定义常量的关键字是 ``const``，例如：
 ``` CPP

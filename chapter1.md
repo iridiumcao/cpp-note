@@ -1,7 +1,7 @@
 # 第01讲 函数指针
 
 > 按：本讲实际上是对 C 语言部分高级特性的一个回顾。  
-> 课程地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/8lQv8/han-shu-zhi-zhen>
+> 视频地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/8lQv8/han-shu-zhi-zhen>
 
 ## 1.1 基本定义
 
