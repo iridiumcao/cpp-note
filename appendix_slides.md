@@ -2,7 +2,7 @@
 
 * 第二周 从 C 走进 C++ (Chapter 01 ~ 12)  
 <https://www.coursera.org/learn/cpp-chengxu-sheji/supplement/2sObh/ke-cheng-slides>
-* 第三周 类和对象 (Chapter 13 ~ ) 
+* 第三周 类和对象 (Chapter 13 ~ )  
 <https://www.coursera.org/learn/cpp-chengxu-sheji/supplement/oVo9Q/ke-cheng-slides>
 * 第四周 运算符重载  
 <https://www.coursera.org/learn/cpp-chengxu-sheji/supplement/MGynZ/ke-cheng-slides>
