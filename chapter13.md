@@ -27,4 +27,5 @@ public:
   Complex c1;                // 默认构造器被调用
   Complex *pc = new Complex; // 默认构造器被调用
 ```
-
+(代码下载：[Human.cpp](code/ch13/Complex.cpp), [main.cpp](code/ch13/main.cpp))  
+这里的构造对象的方式和 Java
