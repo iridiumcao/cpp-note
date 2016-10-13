@@ -15,5 +15,6 @@
 * [第13讲 构造函数](chapter13.md)
 * [第14讲 复制构造函数](chapter14.md)
 * [第15讲 类型转换构造函数](chapter15.md)
+* [第16讲 析构函数](chapter16.md)
 * [附录一 环境及编译](appendix.md)
 * [附录二 课程讲义](appendix_slides.md)
