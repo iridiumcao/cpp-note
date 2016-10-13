@@ -1,6 +1,6 @@
 # 第13讲 构造函数
 
->
+> 构造函数是所有面向对象的语言都有的。C++ 的构造器和 Java 的构造器有诸多不同。  
 > 视频地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/8lhFP/gou-zao-han-shu>
 
 构造函数，也称「构造器」，顾名思义即用于构造对象的函数。
