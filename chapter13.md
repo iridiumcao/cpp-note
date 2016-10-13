@@ -114,7 +114,7 @@ Constructor 1 called
 ``` C++
   CSample array2[2] = {CSample(4), CSample(5)}; // 该数组两个元素，一个用4,一个用5来作为参数构造
 ``` 
-的简写形式。  
+的简写形式（实际上调用了[类型转换构造函数](chapter15.md)）。  
 还需要注意 array4 的创建：
 ``` C++
   CSample *array4 = new CSample[2]; 

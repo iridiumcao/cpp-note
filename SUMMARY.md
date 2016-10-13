@@ -13,5 +13,7 @@
 * [第11讲 从客观世界抽象出类的例子](chapter11.md)
 * [第12讲 类成员的访问范围](chapter12.md)
 * [第13讲 构造函数](chapter13.md)
+* [第14讲 复制构造函数](chapter14.md)
+* [第15讲 类型转换构造函数](chapter15.md)
 * [附录一 环境及编译](appendix.md)
 * [附录二 课程讲义](appendix_slides.md)
