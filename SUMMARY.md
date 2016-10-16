@@ -18,3 +18,4 @@
 * [第16讲 析构函数](chapter16.md)
 * [附录一 环境及编译](appendix.md)
 * [附录二 课程讲义](appendix_slides.md)
+* [附录三 教材习题解答](appendix_exercises.md)

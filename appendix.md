@@ -1,4 +1,4 @@
-# Appendix 附录
+# Appendix 附录一
 ## 编译运行 C 代码
 ``` bash
 $ gcc hello.c -o hello
