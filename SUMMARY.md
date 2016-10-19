@@ -19,6 +19,8 @@
 * [第17讲 静态成员变量和静态成员函数](chapter17.md)
 * [第18讲 成员对象和封闭类](chapter18.md)
 * [第19讲 友元](chapter19.md)
+* [第20讲 this 指针](chapter20.md)
+* [第21讲 常量对象、常量成员和常引用](chapter21.md)
 * [附录一 环境及编译](appendix.md)
 * [附录二 课程讲义](appendix_slides.md)
 * [附录三 教材习题解答](appendix_exercises.md)
