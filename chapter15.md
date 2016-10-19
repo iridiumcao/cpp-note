@@ -1,5 +1,6 @@
 # 第15讲 类型转换构造函数
 
+> 这是一个很鸡肋的语言特性！能不用尽量不用！  
 > 本节教授的内容在前面的「[构造函数](chapter13.md)」已有应用，那里提到创建类 ``CSample`` 的简写形式，即使用了类型转换构造函数。  
 > 视频地址：<https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/j3aOd/lei-xing-zhuan-huan-gou-zao-han-shu>
 
