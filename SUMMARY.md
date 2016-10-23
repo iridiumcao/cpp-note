@@ -24,3 +24,4 @@
 * [附录一 环境及编译](appendix.md)
 * [附录二 课程讲义](appendix_slides.md)
 * [附录三 教材习题解答](appendix_exercises.md)
+* [附录四 在线作业](appendix_assignment.md)
