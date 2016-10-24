@@ -1,9 +1,10 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Main {
-    private static String SQUARTER_RED = "red";
-    private static String SQUARTER_BLUE = "blue";
+    private static String HEADQUARTER_RED = "red";
+    private static String HEADQUARTER_BLUE = "blue";
 
     private static String WARRIOR_NAME_DRAGON = "dragon";
     private static String WARRIOR_NAME_NINJA = "ninja";
@@ -16,32 +17,43 @@ public class Main {
     private static final String[] BLUE_ORDER = {WARRIOR_NAME_LION, WARRIOR_NAME_DRAGON, WARRIOR_NAME_NINJA, WARRIOR_NAME_ICEMAN, WARRIOR_NAME_WOLF};
 
     public static void main(String[] args) {
-        int rounds = 1;
-        int[] totalLifeArray = {20};
-        int[][] allLifeArray = {{3, 4, 5, 6, 7}};
+        int rounds; // 轮数
+        int[] totalStrengthArray; // 每轮各司令部的总生命值
+        int[][] allStrengthArray; // 每轮各种武士的生命值
+
+        Scanner sc = new Scanner(System.in);
+        rounds = sc.nextInt();
+        totalStrengthArray = new int[rounds];
+        allStrengthArray = new int[rounds][5];
+        for (int i = 0; i < rounds; i++) {
+            totalStrengthArray[i] = sc.nextInt();
+            for (int j = 0; j < 5; j++) {
+                allStrengthArray[i][j] = sc.nextInt();
+            }
+        }
 
         for (int i = 0; i < rounds; i++) {
-            int[] lifeArray = allLifeArray[i];
-            Map<String, Integer> warriorStrengthMap = new HashMap();
+            int[] strengthArray = allStrengthArray[i];
+            Map<String, Integer> warriorStrengthMap = new HashMap<>();
             for (int j = 0; j < INPUT_ORDER.length; j++) {
-                warriorStrengthMap.put(INPUT_ORDER[j], lifeArray[j]);
+                warriorStrengthMap.put(INPUT_ORDER[j], strengthArray[j]);
             }
 
-            int totalLife = totalLifeArray[i];
-            Headquarter redSquarter = new Headquarter(SQUARTER_RED, totalLife, RED_ORDER);
-            redSquarter.setActive(true); // 假定红方能生产武士
-            for (int strength : lifeArray) {
-                if (redSquarter.getTotalStrength() < strength) {
-                    redSquarter.setActive(false);
+            int totalStrength = totalStrengthArray[i];
+            Headquarter redHeadquarter = new Headquarter(HEADQUARTER_RED, totalStrength, RED_ORDER);
+            redHeadquarter.setActive(true); // 假定红方能生产武士
+            for (int strength : strengthArray) {
+                if (redHeadquarter.getTotalStrength() < strength) {
+                    redHeadquarter.setActive(false);
                     break;
                 }
             }
 
-            Headquarter blueSquarter = new Headquarter(SQUARTER_BLUE, totalLife, BLUE_ORDER);
-            blueSquarter.setActive(true); // 假定蓝方能生成武士
-            for (int strength : lifeArray) {
-                if (blueSquarter.getTotalStrength() < strength) {
-                    blueSquarter.setActive(false);
+            Headquarter blueHeadquarter = new Headquarter(HEADQUARTER_BLUE, totalStrength, BLUE_ORDER);
+            blueHeadquarter.setActive(true); // 假定蓝方能生成武士
+            for (int strength : strengthArray) {
+                if (blueHeadquarter.getTotalStrength() < strength) {
+                    blueHeadquarter.setActive(false);
                     break;
                 }
             }
@@ -50,53 +62,39 @@ public class Main {
             int hours = 0;
             int indexRed = 0;
             int indexBlue = 0;
-            while (redSquarter.isActive() || blueSquarter.isActive()) {
-                Warrior redBorn;
-                if (redSquarter.isActive()) {
-                    redBorn = redSquarter.createWarrior(RED_ORDER[indexRed], warriorStrengthMap.get(RED_ORDER[indexRed]));
-                    if (null != redBorn) {
-                        printNewBorn(redSquarter, hours, redBorn);
-                    } else {
-                        while (redSquarter.isActive()) {
-                            for (int j = 0; j < 5; j++) {
-                                int tempIndex = (j + indexRed + 1) % 5;
-                                redBorn = redSquarter.createWarrior(RED_ORDER[tempIndex], warriorStrengthMap.get(RED_ORDER[tempIndex]));
-                                if (redBorn != null) {
-                                    break;
-                                }
+            while (redHeadquarter.isActive() || blueHeadquarter.isActive()) {
+                if (redHeadquarter.isActive()) {
+                    for (int j = 0; j < 5; j++) {
+                        int tempIndex = (j + indexRed) % 5;
+                        if (redHeadquarter.getTotalStrength() > warriorStrengthMap.get(RED_ORDER[tempIndex])) {
+                            Warrior redBorn = redHeadquarter.createWarrior(RED_ORDER[indexRed], warriorStrengthMap.get(RED_ORDER[indexRed]));
+                            printNewBorn(redHeadquarter, hours, redBorn);
+                            indexRed = (indexRed + 1) % 5;
+                            break;
+                        }
 
-                                if (j == 4) {
-                                    System.out.println(hours + " " + redSquarter.getType() + " headquarter stops making warriors");
-                                    redSquarter.setActive(false);
-                                }
-                            }
+                        if (j == 4) {
+                            System.out.println(String.format("%03d", hours) + " " + redHeadquarter.getType() + " headquarter stops making warriors");
+                            redHeadquarter.setActive(false);
                         }
                     }
-                    indexRed++;
                 }
 
-                Warrior blueBorn;
-                if (blueSquarter.isActive()) {
-                    blueBorn = blueSquarter.createWarrior(BLUE_ORDER[indexBlue], warriorStrengthMap.get(BLUE_ORDER[indexBlue]));
-                    if (null != blueBorn) {
-                        printNewBorn(blueSquarter, hours, blueBorn);
-                    } else {
-                        while (blueSquarter.isActive()) {
-                            for (int j = 0; j < 5; j++) {
-                                int tempIndex = (j + indexRed + 1) % 5;
-                                redBorn = blueSquarter.createWarrior(RED_ORDER[tempIndex], warriorStrengthMap.get(RED_ORDER[tempIndex]));
-                                if (redBorn != null) {
-                                    break;
-                                }
+                if (blueHeadquarter.isActive()) {
+                    for (int j = 0; j < 5; j++) {
+                        int tempIndex = (j + indexBlue) % 5;
+                        if (blueHeadquarter.getTotalStrength() > warriorStrengthMap.get(BLUE_ORDER[tempIndex])) {
+                            Warrior blueBorn = blueHeadquarter.createWarrior(BLUE_ORDER[indexBlue], warriorStrengthMap.get(BLUE_ORDER[indexBlue]));
+                            printNewBorn(blueHeadquarter, hours, blueBorn);
+                            indexBlue = (indexBlue + 1) % 5;
+                            break;
+                        }
 
-                                if (j == 4) {
-                                    System.out.println(hours + " " + blueSquarter.getType() + " headquarter stops making warriors");
-                                    blueSquarter.setActive(false);
-                                }
-                            }
+                        if (j == 4) {
+                            System.out.println(String.format("%03d", hours) + " " + blueHeadquarter.getType() + " headquarter stops making warriors");
+                            blueHeadquarter.setActive(false);
                         }
                     }
-                    indexBlue++;
                 }
 
                 hours++;
@@ -104,7 +102,7 @@ public class Main {
         }
     }
 
-    private static void printNewBorn(Headquarter redSquarter, int hours, Warrior redBorn) {
-        System.out.println(hours + " " + SQUARTER_RED + " " + redBorn.getType() + " born with strength " + redBorn.getStrength() + "," + redSquarter.getCountWarriors().get(redBorn.getType()) + " " + redBorn.getType() + " in " + SQUARTER_RED + " headquarter");
+    private static void printNewBorn(Headquarter headquarter, int hours, Warrior redBorn) {
+        System.out.println(String.format("%03d", hours) + " " + headquarter.getType() + " " + redBorn.getType() + " born with strength " + redBorn.getStrength() + "," + headquarter.getCountWarriors().get(redBorn.getType()) + " " + redBorn.getType() + " in " + headquarter.getType() + " headquarter");
     }
 }

@@ -181,3 +181,13 @@ Case:1
 003 blue iceman 4 born with strength 5,1 iceman in blue headquarter
 004 blue headquarter stops making warriors
 ```
+** 分析和解答 **  
+这道题目在刚刚学了这点 C++ 知识的情况下写出程序来可真是难。
+因此我先用熟悉的 Java 写了一个解答，C++ 的版本正在对照修改，为了对应 Java 中的集合类，还用到了 C++ STL 等。  
+Java 相关文件：[Headquarter.java](../code/assignment/week03/no4_java/Headquarter.java), [Warrior.java](../code/assignment/week03/no4_java/Warrior.java), [Main.java](../code/assignment/week03/no4_java/Main.java).  
+
+附，在终端中编译 Java 代码的指令：
+``` bash
+$ javac -sourcepath . *.java -encoding UTF-8 -Xlint:unchecked
+$ java Main
+```

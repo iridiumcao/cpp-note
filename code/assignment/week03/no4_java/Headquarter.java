@@ -8,6 +8,7 @@ public class Headquarter {
     private int totalStrength;
     private String[] warriorNameArray;
     private List<Warrior> warriorList;
+    // 各种武士对应的数量
     private Map<String, Integer> countWarriors;
     // 是否还能制造武士
     private boolean active;
@@ -27,12 +28,12 @@ public class Headquarter {
         this.active = true;
     }
 
-    Warrior createWarrior(String type, int life) {
-        if (this.totalStrength > life) {
-            Warrior warrior = new Warrior(type, life);
+    Warrior createWarrior(String type, int strength) {
+        if (this.totalStrength > strength) {
+            Warrior warrior = new Warrior(type, strength);
 
             this.warriorList.add(warrior);
-            this.totalStrength -= life;
+            this.totalStrength -= strength;
             this.countWarriors.put(type, this.countWarriors.get(type) + 1);
             return warrior;
         } else {
@@ -44,40 +45,12 @@ public class Headquarter {
         return type;
     }
 
-    public void setType(String type) {
-        this.type = type;
-    }
-
     public int getTotalStrength() {
         return totalStrength;
     }
 
-    public void setTotalStrength(int totalStrength) {
-        this.totalStrength = totalStrength;
-    }
-
-    public String[] getWarriorNameArray() {
-        return warriorNameArray;
-    }
-
-    public void setWarriorNameArray(String[] warriorNameArray) {
-        this.warriorNameArray = warriorNameArray;
-    }
-
-    public List<Warrior> getWarriorList() {
-        return warriorList;
-    }
-
-    public void setWarriorList(List<Warrior> warriorList) {
-        this.warriorList = warriorList;
-    }
-
     public Map<String, Integer> getCountWarriors() {
         return countWarriors;
-    }
-
-    public void setCountWarriors(Map<String, Integer> countWarriors) {
-        this.countWarriors = countWarriors;
     }
 
     public boolean isActive() {
