@@ -1,17 +1,22 @@
 # 第03周作业 类和对象
 
-> https://www.coursera.org/learn/cpp-chengxu-sheji/programming/5f8jI/bian-cheng-zuo-ye-lei-he-dui-xiang
+> <https://www.coursera.org/learn/cpp-chengxu-sheji/programming/5f8jI/bian-cheng-zuo-ye-lei-he-dui-xiang>
+
+<p style='color:red'>如果你正在 Coursera 学习这门课程，请忽略这部分内容。课程不鼓励交流作业题。</p>
 
 ## 编程题1
+
 来源: [POJ](http://cxsjsxmooc.openjudge.cn/test/solution/7067811/) (Coursera声明：在POJ上完成的习题将不会计入Coursera的最后成绩。)  
 描述  
 下面程序输出的结果是：
-```
+
+``` C++
 0
 5
 ```
 
 请填空：
+
 ``` C++
 #include <iostream>
 using namespace std;
@@ -27,30 +32,36 @@ main() {
   cout << a.val << endl;
 }
 ```
+
 **输入**  
 无
 **输出** 
-```
+
+``` C++
 0
 5
 ``` 
 
 **提示**
 所缺代码具有如下形式：
+
 ``` C++
     A(_________________ ){ val = n; }
     ________________ GetObj() {
         return _________________;
     }
 ```
+
 答案包含在这个文件中：[A.cpp](../code/assignment/week03/no1/A.cpp)
 
 ## 编程题2
+
 来源: [POJ](http://cxsjsxmooc.openjudge.cn/test/3w8/)   
 描述  
 下面程序的输出是：
 10
 请补足Sample类的成员函数。不能增加成员变量。
+
 ``` C++
 #include <iostream>
 using namespace std;
@@ -67,6 +78,7 @@ int main() {
   return 0;
 }
 ```
+
 **输入**  
 无   
 **输出**  
@@ -75,15 +87,18 @@ int main() {
 答案包含在这个文件中：[Sample.cpp](../code/assignment/week03/no2/Sample.cpp)
 
 ## 编程题3
+
 来源: [POJ](http://cxsjsxmooc.openjudge.cn/test/3w9/)  
 描述  
 下面程序的输出结果是：
-```
+
+``` C++
 5,5
 5,5
 ```
 
 请填空：
+
 ``` C++
 using namespace std;
 class Base {
@@ -105,22 +120,28 @@ int main() {
   return 0;
 }
 ```
+
 **输入**   
 无  
 **输出**  
-```
+
+``` C++
 5,5
 5,5
 ```
+
 **提示**
 所缺代码具有如下形式：
+
 ``` C++
     Big ________________{ }
     Big ________________{ }
 ```
+
 答案包含在这个文件中：[main.cpp](../code/assignment/week03/no3/main.cpp)
 
 ## 编程题4 魔兽世界之一：备战
+
 来源: [POJ](http://cxsjsxmooc.openjudge.cn/test/B/)  
 **描述**  
 魔兽世界的西面是红魔军的司令部，东面是蓝魔军的司令部。两个司令部之间是依次排列的若干城市。  
@@ -145,31 +166,37 @@ int main() {
 输出样例： 010 red headquarter stops making warriors  
 表示在10点整，红方司令部停止制造武士  
 
-输出事件时：  
-* 首先按时间顺序输出；  
+输出事件时：
+
+* 首先按时间顺序输出；
 * 同一时间发生的事件，先输出红司令部的，再输出蓝司令部的。
 
 **输入**
 第一行是一个整数，代表测试数据组数。  
 
 每组测试数据共两行。
+
 * 第一行：一个整数M。其含义为， 每个司令部一开始都有M个生命元( 1 <= M <= 10000)。
 * 第二行：五个整数，依次是 dragon 、ninja、iceman、lion、wolf 的初始生命值。它们都大于0小于等于10000。
 
 **输出**
+
 * 对每组测试数据，要求输出从0时0分开始，到双方司令部都停止制造武士为止的所有事件。
 * 对每组测试数据，首先输出"Case:n" n是测试数据的编号，从1开始 。
 * 接下来按恰当的顺序和格式输出所有事件。每个事件都以事件发生的时间开头，时间以小时为单位，有三位。
 
 
 样例输入
-```
+
+``` C++
 1
 20
 3 4 5 6 7
 ```
+
 样例输出
-```
+
+``` C++
 Case:1
 000 red iceman 1 born with strength 5,1 iceman in red headquarter
 000 blue lion 1 born with strength 6,1 lion in blue headquarter
@@ -181,13 +208,18 @@ Case:1
 003 blue iceman 4 born with strength 5,1 iceman in blue headquarter
 004 blue headquarter stops making warriors
 ```
+
 ** 分析和解答 **  
 这道题目在刚刚学了这点 C++ 知识的情况下写出程序来可真是难。
-因此我先用熟悉的 Java 写了一个解答，C++ 的版本正在对照修改，为了对应 Java 中的集合类，还用到了 C++ STL 等。  
+因此我先用熟悉的 Java 写了一个解答，C++ 的版本正在对照修改，为了对应 Java 中的集合类，还用到了 C++ STL 等。
+C++ 版本仍在修改中。  
 Java 相关文件：[Headquarter.java](../code/assignment/week03/no4_java/Headquarter.java), [Warrior.java](../code/assignment/week03/no4_java/Warrior.java), [Main.java](../code/assignment/week03/no4_java/Main.java).  
 
 附，在终端中编译 Java 代码的指令：
+
 ``` bash
 $ javac -sourcepath . *.java -encoding UTF-8 -Xlint:unchecked
 $ java Main
 ```
+
+以上的 ``encoding`` 和 ``Xlint`` 参数不是必须的。
