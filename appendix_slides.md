@@ -5,9 +5,9 @@
 <https://www.coursera.org/learn/cpp-chengxu-sheji/supplement/2sObh/ke-cheng-slides>
 * 第三周 类和对象 (Chapter 13 ~ Chapter 20)  
 <https://www.coursera.org/learn/cpp-chengxu-sheji/supplement/oVo9Q/ke-cheng-slides>
-* 第四周 运算符重载 (Chapter 21 ~ Chapter ?)  
+* 第四周 运算符重载 (Chapter 21 ~ Chapter 24)  
 <https://www.coursera.org/learn/cpp-chengxu-sheji/supplement/MGynZ/ke-cheng-slides>
-* 第五周 继承与派生  
+* 第五周 继承与派生 (Chapter 25 ~ Chapter ?)  
 <https://www.coursera.org/learn/cpp-chengxu-sheji/supplement/JYzTL/ke-cheng-slides>
 * 第六周 多态与虚函数  
 <https://www.coursera.org/learn/cpp-chengxu-sheji/supplement/v1PZc/ke-cheng-slides>

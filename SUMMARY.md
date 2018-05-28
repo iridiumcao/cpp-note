@@ -27,6 +27,7 @@
 * [第23讲 流插入运算符的重载](chapter23.md)
 * [第24讲 自加/自减运算符的重载](chapter24.md)
 * [第04周作业解答](assignment/week04.md)
+* [第25讲 继承和派生](chapter25.md)
 * [附录一 环境及编译](appendix.md)
 * [附录二 课程讲义](appendix_slides.md)
 * [附录三 教材习题解答](appendix_exercises.md)
