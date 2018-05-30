@@ -1,6 +1,6 @@
 # 第01讲 函数指针
 
-> 按：本讲实际上是对 C 语言部分高级特性的一个回顾。  
+> 按：本讲实际上是对 C 语言部分高级特性的一个回顾。开篇就讲函数指针，这点相对于其他 C++ 教程还是有比较大的差别的，这也反应出 FP \(Functional Programming, 函数式编程\) 日渐强势。  
 > 视频地址：[https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/8lQv8/han-shu-zhi-zhen](https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/8lQv8/han-shu-zhi-zhen)
 
 ## 1.1 基本定义
