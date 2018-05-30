@@ -8,7 +8,7 @@
 它可以实现类型的自动转换，编译系统可以自动调用它去创建一个对象或变量。  
 例如：
 
-```text
+```cpp
 class Complex {
 public:
   double real;

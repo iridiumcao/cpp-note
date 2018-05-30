@@ -12,7 +12,6 @@
 * [第09讲 面向对象程序设计方法](di-09-jiang-mian-xiang-dui-xiang-cheng-xu-she-ji-fang-fa.md)
 * [第10讲 面向对象语言的发展历程](di-10-jiang-mian-xiang-dui-xiang-yu-yan-de-fa-zhan-li-cheng.md)
 * [第11讲 从客观世界抽象出类的例子](di-11-jiang-cong-ke-guan-shi-jie-chou-xiang-chu-lei-de-li-zi.md)
-* 第02周作业解答
 * [第12讲 类成员的访问范围](di-12-jiang-lei-cheng-yuan-de-fang-wen-fan-wei.md)
 * [第13讲 构造函数](di-13-jiang-gou-zao-han-shu.md)
 * [第14讲 复制构造函数](di-14-jiang-fu-zhi-gou-zao-han-shu.md)
@@ -22,11 +21,12 @@
 * [第18讲 成员对象和封闭类](di-18-jiang-cheng-yuan-dui-xiang-he-feng-bi-lei.md)
 * [第19讲 友元](di-19-jiang-you-yuan.md)
 * [第20讲 this 指针](di-20-jiang-this-zhi-zhen.md)
-* [第03周作业解答](di-03-zhou-zuo-ye-jie-da.md)
 * [第21讲 运算符重载](di-21-jiang-yun-suan-fu-zhong-zai.md)
 * [第22讲 实例——长度可变的整型数组类](di-22-jiang-shi-li-chang-du-ke-bian-de-zheng-xing-shu-zu-lei.md)
 * [第23讲 流插入运算符的重载](di-23-jiang-liu-cha-ru-yun-suan-fu-de-zhong-zai.md)
 * [第24讲 自加/自减运算符的重载](di-24-jiang-zi-jia-zi-jian-yun-suan-fu-de-zhong-zai.md)
+* 第02周作业解答
+* [第03周作业解答](di-03-zhou-zuo-ye-jie-da.md)
 * [第04周作业解答](di-04-zhou-zuo-ye-jie-da.md)
 * [第25讲 继承和派生](di-25-jiang-ji-cheng-he-pai-sheng.md)
 * [附录一 环境及编译](fu-lu-yi-huan-jing-ji-bian-yi.md)
