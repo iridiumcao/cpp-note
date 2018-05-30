@@ -1,13 +1,13 @@
 # 第02讲 命令行参数
 
-> 这部分知识是关于 C++ 程序的交互功能的。  
+> 这部分知识是关于 C++ 程序的交互功能的，局限于 Shell 里的交互。  
 > 视频地址：[https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/nTsWR/ming-ling-xing-can-shu](https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/nTsWR/ming-ling-xing-can-shu)
 
 在字符界面的 shell 中执行命令时，命令行中的所有字串，称为「命令行参数」。命令行参数可以有多个，以空格分隔。
 
 例如 Windows CMD Shell 中
 
-```text
+```bash
 > copy file1.txt file2.txt
 ```
 
