@@ -50,12 +50,12 @@ int main() {
 
 ### 1.2.1 C 语言表达
 
-在视频讲座中，郭老师给出的例子是 C 语言的。本示例通过调用 qsort 函数，对 unsigned int 数组进行排序。
+在视频讲座中，郭老师给出的例子是 C 语言的。本示例通过调用 ``qsort`` 函数，对 ``unsigned int`` 数组进行排序。
 
 ```c
 /*
  * base: 数组的起始地址
- * nelem: the number of element, 数组元素的个数，即待排序的元素个数
+ * nelem: the number of elements, 数组元素的个数，即待排序的元素个数
  * width: the size of each element, 每个元素的大小，结合前面的参数，可以计算出每个元素的地址
  * pfCompare: 定义排序依据的函数，这个函数是用户定义的
  */
