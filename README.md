@@ -9,6 +9,7 @@ C++ 诞生于1979年，是一门历史悠久的语言。它可能是第一个在
 * 授课老师：刘家瑛, 郭炜
 
 Gitbook：[https://iridiumcao.gitbook.io/cpp-note/](https://iridiumcao.gitbook.io/cpp-note/)  
+Github Pages: [https://iridiumcao.github.io/cpp-note/](https://iridiumcao.github.io/cpp-note/)
 Github：[https://github.com/iridiumcao/cpp-note/](https://github.com/iridiumcao/cpp-note/)
 
 C++ Reference: [http://www.cplusplus.com/reference/](http://www.cplusplus.com/reference/)
