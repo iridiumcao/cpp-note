@@ -1,6 +1,6 @@
 # Introduction
 
-C++ 诞生于1979年，是一门历史悠久的语言。它可能是第一个在工业领域取得成功的 OOP \(Object-oriented programming，面向对象编程\) 语言。有关 C++ 的历史，更多可以参考[维基百科的文章](https://en.wikipedia.org/wiki/C%2B%2B)，此不赘述。
+C++ 诞生于1979年，是一门历史悠久的语言（比我的年龄还大！）。它可能是第一个在工业领域取得成功的 OOP \(Object-oriented programming，面向对象编程\) 语言。有关 C++ 的历史，更多可以参考[维基百科的文章](https://en.wikipedia.org/wiki/C%2B%2B)，此不赘述。
 
 本笔记课程信息：
 * 课程名称：《C++ 程序设计》 

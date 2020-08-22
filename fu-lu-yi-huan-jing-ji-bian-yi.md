@@ -13,7 +13,7 @@ $ ./hello
 $ gcc hello.c -o hello && ./hello
 ```
 
-如果不写 -o 参数，编译后将自动生成名为 a.out 的可执行文件。
+如果不写 `-o` 参数，编译后将自动生成名为 `a.out` 的可执行文件。
 
 ```bash
 $ gcc hello.c
@@ -27,7 +27,7 @@ $ g++ hello.cpp -o hello
 $ ./hello
 ```
 
-如果不写 -o 参数，编译后将自动生成名为 a.out 的可执行文件。
+如果不写 `-o` 参数，编译后将自动生成名为 `a.out` 的可执行文件。
 
 ```bash
 $ g++ hello.cpp

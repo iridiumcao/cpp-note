@@ -9,6 +9,9 @@ int sum(int a, int b) {
 int main() {
     int (*pf)(int, int); // 定义函数指针
     pf = sum; // pf 指向 sum 函数
+    // 以上两句也可以一行完成：定义+赋值，如下
+    // int (*pf)(int, int) = sum;
+
     cout << pf(3, 2) << endl;
     return 0;
 }
