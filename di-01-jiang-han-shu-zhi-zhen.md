@@ -59,7 +59,10 @@ int main() {
  * width: the size of each element, 每个元素的大小，结合前面的参数，可以计算出每个元素的地址
  * pfCompare: 定义排序依据的函数，这个函数是用户定义的
  */
-void qsort(void *base, int nelem, unsigned int width, int (*pfCompare)(const void *, const void *));
+void qsort(void *base, 
+           int nelem, 
+           unsigned int width, 
+           int (*pfCompare)(const void *, const void *));
 ```
 
 以上，`qsort` 函数在执行时会通过 `pfCompare` 指针调用「比较函数」调用时将两个要比较的元素的地址传给「比较函数」，然后根据「比较函数」的返回值（「比较函数」的执行结果），决定谁先谁後。
