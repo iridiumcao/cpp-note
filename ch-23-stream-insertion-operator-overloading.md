@@ -90,3 +90,6 @@ int main() {
 
 \([代码下载](https://github.com/iridiumcao/cpp-note/tree/880e117845a17eb6c60956118ca4255ee37bb412/code/ch23/sample.cc)\)
 
+---
+
+[\<Previous](ch-22-int-array.md) \| [Home](SUMMARY.md) \| [Next\>](ch-24-operator-overloading-self-add-minus.md)

@@ -60,3 +60,6 @@ int main() {
 }
 ```
 
+---
+
+[\<Previous](ch-17-static-members.md) \| [Home](SUMMARY.md) \| [Next\>](ch-19-friend.md)

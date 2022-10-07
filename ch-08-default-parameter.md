@@ -50,3 +50,6 @@ a.valueX(); //ERROR! 编译器无法判断调用哪个 valueX
 
 \([代码下载](https://github.com/iridiumcao/cpp-note/tree/880e117845a17eb6c60956118ca4255ee37bb412/code/ch08/Hello.cpp)\)
 
+---
+
+[\<Previous](ch-07-function.md) \| [Home](SUMMARY.md) \| [Next\>](ch-09-object-oriented.md)

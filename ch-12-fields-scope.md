@@ -57,3 +57,6 @@ public:
 
 注释1：需要明确指出的原因是 C++ 存在全局方法。
 
+---
+
+[\<Previous](ch-11-abstact.md) \| [Home](SUMMARY.md) \| [Next\>](ch-13-constructor.md)

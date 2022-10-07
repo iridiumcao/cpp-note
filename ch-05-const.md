@@ -13,7 +13,7 @@ const int LENTH = 20;
 const char * CITY_NAME = "CHENGDU"; // 常量指针
 ```
 
-对于**常量指针**，不能通过常量指针修改指向的内容，不能将常量指针赋值给非常量指针，这点和[常量引用](di-04-jiang-yin-yong.md)类似。如：
+对于**常量指针**，不能通过常量指针修改指向的内容，不能将常量指针赋值给非常量指针，这点和[常量引用](ch-04-reference.md)类似。如：
 
 ```cpp
 double d = 3.2;
@@ -30,3 +30,6 @@ d = 4.2; // OK
 
 1. C++ 的 `const` 对象和 Java 的 `final` 对象联系？
 
+---
+
+[\<Previous](ch-04-reference.md) \| [Home](SUMMARY.md) \| [Next\>](ch-06-random-memory-allocation.md)

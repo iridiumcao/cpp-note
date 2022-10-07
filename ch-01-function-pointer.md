@@ -1,6 +1,6 @@
 # 第01讲 函数指针
 
-> 按：本讲实际上是对 C 语言部分高级特性的一个回顾。开篇就讲函数指针，这点相对于其他 C++ 教程还是有比较大的差别的，这也反应出 FP \(Functional Programming, 函数式编程\) 日渐强势。  
+> 按：本讲实际上是对 C 语言部分高级特性的一个回顾。开篇就讲函数指针，这点相对于其他 C++ 教程还是有比较大的差别的，这也反应出 FP (Functional Programming, 函数式编程) 日渐强势。  
 > 视频地址：[https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/8lQv8/han-shu-zhi-zhen](https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/8lQv8/han-shu-zhi-zhen)
 
 ## 1.1 基本定义
@@ -12,7 +12,7 @@
 **定义形式**
 
 ```c
-类型名 (*指针变量名)(类型参数1，类型参数2, ...)
+函数的返回类型名 (*指针变量名)(类型参数1，类型参数2, ...)
 ```
 
 e.g.:
@@ -42,7 +42,7 @@ int main() {
 }
 ```
 
-\([代码下载](https://github.com/iridiumcao/cpp-note/tree/880e117845a17eb6c60956118ca4255ee37bb412/code/ch01/ch01.1.cpp)\)
+([代码下载](https://github.com/iridiumcao/cpp-note/tree/880e117845a17eb6c60956118ca4255ee37bb412/code/ch01/ch01.1.cpp))
 
 ## 1.2 库函数中的应用——快速排序函数
 
@@ -145,6 +145,10 @@ int main() {
 }
 ```
 
-\([代码下载](https://github.com/iridiumcao/cpp-note/tree/880e117845a17eb6c60956118ca4255ee37bb412/code/ch01/ch01.3.cpp)\)  
+([代码下载](https://github.com/iridiumcao/cpp-note/tree/880e117845a17eb6c60956118ca4255ee37bb412/code/ch01/ch01.3.cpp))
+
 很明显，C++ 的排序函数相对于 C 有很大的简化，也更好用。
 
+---
+
+[\<Previous](README.md) \| [Home](SUMMARY.md) \| [Next\>](ch-02-command-parameters.md)

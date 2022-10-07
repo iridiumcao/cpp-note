@@ -101,3 +101,6 @@ void hello(A2 * this) {
 最后附上视频中的一道测试：  
 ![test in video](.gitbook/assets/ch20.this_pointer.png)
 
+---
+
+[\<Previous](ch-19-friend.md) \| [Home](SUMMARY.md) \| [Next\>](ch-21-operator-overloading.md)

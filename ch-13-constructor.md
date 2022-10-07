@@ -64,7 +64,7 @@ Complex::Complex(double real, double imag) {
 ```
 
 \(代码下载：[Complex.cpp](https://github.com/iridiumcao/cpp-note/tree/880e117845a17eb6c60956118ca4255ee37bb412/code/ch13/constructor/Complex.cpp), [main.cpp](https://github.com/iridiumcao/cpp-note/tree/880e117845a17eb6c60956118ca4255ee37bb412/code/ch13/constructor/main.cpp)\)  
-注意上面定义构造器时，还使用了「[默认参数](di-08-jiang-han-shu-que-sheng-can-shu.md)」。实际场合中，构造函数可以定义多个。
+注意上面定义构造器时，还使用了「[默认参数](ch-08-default-parameter.md)」。实际场合中，构造函数可以定义多个。
 
 ## 3. 构造函数在数组中的使用
 
@@ -128,7 +128,7 @@ Constructor 1 called
   CSample array2[2] = {CSample(4), CSample(5)}; // 该数组两个元素，一个用4,一个用5来作为参数构造
 ```
 
-的简写形式（实际上调用了[类型转换构造函数](di-15-jiang-lei-xing-zhuan-huan-gou-zao-han-shu.md)）。  
+的简写形式（实际上调用了[类型转换构造函数](ch-15-constructor-type-transfer.md)）。  
 还需要注意 array4 的创建：
 
 ```cpp
@@ -180,3 +180,6 @@ Constructor 2 called
 
 以上特别需要注意的是，\*pArray 只生成了两个对象。
 
+---
+
+[\<Previous](ch-12-fields-scope.md) \| [Home](SUMMARY.md) \| [Next\>](ch-14-copy-constructor.md)

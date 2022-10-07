@@ -26,3 +26,6 @@
 
 ```
 
+---
+
+[\<Previous](ch-23-stream-insertion-operator-overloading.md) \| [Home](ch-25-inheritance.md) \| [Next\>](ch-04-reference.md)

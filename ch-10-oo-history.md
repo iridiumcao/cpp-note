@@ -24,3 +24,6 @@ Refs:
 * [History of Programming Languages](https://en.wikipedia.org/wiki/History_of_programming_languages) \(Wikipedia\)
 * [C++](https://en.wikipedia.org/wiki/C%2B%2B) \(Wikipedia\)
 
+---
+
+[\<Previous](ch-09-object-oriented.md) \| [Home](SUMMARY.md) \| [Next\>](ch-11-abstact.md)

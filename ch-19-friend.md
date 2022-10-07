@@ -15,3 +15,6 @@
 * A是B的友元类：A的成员函数可以访问B的私有成员。
 * 友元类之间的关系不能传递，不能继承。
 
+---
+
+[\<Previous](ch-18-member-object-and-enclosed-class.md) \| [Home](SUMMARY.md) \| [Next\>](ch-20-pointer-this.md)

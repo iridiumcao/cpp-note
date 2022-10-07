@@ -61,3 +61,6 @@ C++ 中称类的属性为「成员变量」，功能性代码块为「成员函�
 
 老师在视频中还讲到：对象的指针，对象的引用。这里不再赘述。
 
+---
+
+[\<Previous](ch-10-oo-history.md) \| [Home](SUMMARY.md) \| [Next\>](ch-12-fields-scope.md)

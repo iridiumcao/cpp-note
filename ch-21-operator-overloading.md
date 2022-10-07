@@ -147,3 +147,6 @@ int main() {
 \([代码下载](https://github.com/iridiumcao/cpp-note/tree/880e117845a17eb6c60956118ca4255ee37bb412/code/ch21/sample4.cc)\)  
 特别要注意 `b = a + 5` 和 `c = 5 + a` 调用的是不同的运算符重载函数。这里也显示运算符的重载不支持交换律，如果要重载`+`，就必须写两个重载函数，一个以成员函数出现，一个是全局函数但作为类的友元函数出现，这点让代码显得很丑陋。
 
+---
+
+[\<Previous](ch-20-pointer-this.md) \| [Home](SUMMARY.md) \| [Next\>](ch-22-int-array.md)

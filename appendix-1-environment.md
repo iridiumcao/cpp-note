@@ -40,3 +40,6 @@ $ ./a.out
 
 首先系统要安装有 [clang-format](http://www.codepool.biz/vscode-format-c-code-windows-linux.html)，然后再给 VSCode 安装 clang-format 插件，插件安装好後，可以使用 `Ctrl+Shift+I` 执行格式化代码操作。
 
+---
+
+[Home](SUMMARY.md)

@@ -67,3 +67,6 @@ $ ./hello a b c "d e" f 100
 
 最后一行是输出，其中也可以看到如果某参数本身含有空格，如 _d e_，可以通过双引号括起来。
 
+---
+
+[\<Previous](ch-01-function-pointer.md) \| [Home](SUMMARY.md) \| [Next\>](ch-03-bit-operation.md)

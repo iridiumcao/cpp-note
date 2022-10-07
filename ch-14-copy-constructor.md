@@ -85,3 +85,6 @@ int main\(\) { A a; func\(a\); // 输出 "Copy constructor called." return 0; }
 
 TO BE CONTINUED...
 
+---
+
+[\<Previous](ch-13-constructor.md) \| [Home](SUMMARY.md) \| [Next\>](ch-15-constructor-type-transfer.md)

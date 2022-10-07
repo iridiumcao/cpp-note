@@ -106,3 +106,6 @@ public class Person {
 * 对象使用后，C++ 需要显式归还内存，而 Java 不需要。
 * 通过观察`main`函数定义的位置，可见 C++ 可以定义不属于任何对象的函数\(全局函数\)，可见 C++ 面向对象不如 Java 纯粹。
 
+---
+
+[\<Previous](ch-08-default-parameter.md) \| [Home](SUMMARY.md) \| [Next\>](ch-10-oo-history.md)

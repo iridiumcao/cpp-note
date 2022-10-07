@@ -40,3 +40,6 @@ C++ 作为 C 的超集，既可以用 C 的 `malloc` 来分配内存，也可以
 
 \([代码下载](https://github.com/iridiumcao/cpp-note/tree/880e117845a17eb6c60956118ca4255ee37bb412/code/ch06/ch06.cpp)\)
 
+---
+
+[\<Previous](ch-05-const.md) \| [Home](SUMMARY.md) \| [Next\>](ch-07-function.md)

@@ -41,3 +41,6 @@ A::hello();
 * 对静态成员变量，必须在定义类的文件中做一次初始化。否则编译能过，但连接不能通过。
 * 在静态成员函数中，不能访问非静态成员变量和函数。
 
+---
+
+[\<Previous](ch-16-deconstructor.md) \| [Home](SUMMARY.md) \| [Next\>](ch-18-member-object-and-enclosed-class.md)

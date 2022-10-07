@@ -136,3 +136,6 @@ int main() {
 * 代码优化措施
   1. 前面讨论的是 C++ 标准
 
+---
+
+[\<Previous](ch-15-constructor-type-transfer.md) \| [Home](SUMMARY.md) \| [Next\>](ch-17-static-members.md)

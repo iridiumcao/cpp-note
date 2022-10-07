@@ -43,3 +43,6 @@ max(2, 3.4); // compile ERROR!
 
 （[代码下载](https://github.com/iridiumcao/cpp-note/tree/880e117845a17eb6c60956118ca4255ee37bb412/code/ch07/ch07_overload.cc)\)
 
+---
+
+[\<Previous](ch-06-random-memory-allocation.md) \| [Home](SUMMARY.md) \| [Next\>](ch-08-default-parameter.md)

@@ -1,7 +1,7 @@
 # 第15讲 类型转换构造函数
 
 > 这是一个很鸡肋的语言特性！能不用尽量不用！  
-> 本节教授的内容在前面的「[构造函数](di-13-jiang-gou-zao-han-shu.md)」已有应用，那里提到创建类 `CSample` 的简写形式，即使用了类型转换构造函数。  
+> 本节教授的内容在前面的「[构造函数](ch-13-constructor.md)」已有应用，那里提到创建类 `CSample` 的简写形式，即使用了类型转换构造函数。  
 > 视频地址：[https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/j3aOd/lei-xing-zhuan-huan-gou-zao-han-shu](https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/j3aOd/lei-xing-zhuan-huan-gou-zao-han-shu)
 
 类型转换构造构造函数，是这样一种构造函数：1. 只有一个参数，2. 不是复制构造函数。  
@@ -46,3 +46,6 @@ constructor 1 called
 constructor 1 called
 ```
 
+---
+
+[\<Previous](ch-14-copy-constructor.md) \| [Home](SUMMARY.md) \| [Next\>](ch-16-deconstructor.md)

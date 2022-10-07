@@ -25,3 +25,6 @@
 
 以上比较难看的是 `*` 和 `&` 两个符号，在 C++ 中有多种含义。
 
+---
+
+[\<Previous](ch-03-bit-operation.md) \| [Home](SUMMARY.md) \| [Next\>](ch-05-const.md)

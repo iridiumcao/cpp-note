@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [第01讲 函数指针](ch-01-function-pointer.md)
-* [第02讲 命令行参数](ch-02-comand-parameters.md)
+* [第02讲 命令行参数](ch-02-command-parameters.md)
 * [第03讲 位运算](ch-03-bit-operation.md)
 * [第04讲 引用](ch-04-reference.md)
 * [第05讲 const 关键字](ch-05-const.md)
@@ -32,4 +32,3 @@
 * [附录一 环境及编译](appendix-1-environment.md)
 * [附录二 课程讲义](appendix-2-course-lecture.md)
 * [附录三 教材习题解答](appendix-3-answers.md)
-

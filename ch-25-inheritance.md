@@ -54,3 +54,6 @@ Derivd::hello\(\) { nProtected = 1; // OK Derivd d2; d2.nProtected = 2; // WRONG
 
 > 视频地址：[https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/LMbxe/pai-sheng-lei-de-gou-zao-han-shu](https://www.coursera.org/learn/cpp-chengxu-sheji/lecture/LMbxe/pai-sheng-lei-de-gou-zao-han-shu)
 
+---
+
+[\<Previous](ch-25-inheritance.md) \| [Home](SUMMARY.md) \| Next\>
